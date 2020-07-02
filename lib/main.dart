@@ -11,7 +11,9 @@ class TheCoffeeApp extends StatelessWidget {
     return MaterialApp(
       title: 'The Coffee App',
       theme: ThemeData(
-        primaryColor: Colors.brown,
+        fontFamily: 'Lexend Deca',
+        primaryColor: Colors.brown[300],
+        accentColor: Colors.brown[300],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: CoffeeHome(),
