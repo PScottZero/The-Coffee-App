@@ -1,4 +1,4 @@
-# flutterapp
+# thecoffeeapp
 
 A new Flutter application.
 
