@@ -15,8 +15,19 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.7.3
+
+flutter_icons:
+  image_path_android: "assets/icons/icon_full.png"
+  image_path_ios: "assets/icons/icon_full.png"
+  android: true
+  ios: true
+  adaptive_icon_background: "assets/icons/icon_background.png"
+  adaptive_icon_foreground: "assets/icons/icon_foreground.png"
 
 flutter:
+  assets:
+    - assets/images/
   uses-material-design: true
   fonts:
     - family: Lexend Deca
