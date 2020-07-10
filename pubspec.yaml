@@ -30,10 +30,10 @@ flutter:
     - assets/images/
   uses-material-design: true
   fonts:
-    - family: Lexend Deca
+    - family: Pacifico
       fonts:
-        - asset: fonts/LexendDeca-Regular.ttf
-    - family: Yellowtail
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: Comfortaa
       fonts:
-        - asset: fonts/Yellowtail-Regular.ttf
+        - asset: fonts/Comfortaa-VariableFont_wght.ttf
 

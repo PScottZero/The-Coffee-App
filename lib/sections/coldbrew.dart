@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:thecoffeeapp/components/rounded_image.dart';
 import 'package:thecoffeeapp/components/section_title.dart';
 import 'package:thecoffeeapp/components/text_block.dart';
 
@@ -13,7 +12,7 @@ class ColdBrewWidget extends StatelessWidget {
           sectionTitle: 'Cold Brew',
           bottomPadding: 30
         ),
-        RoundedImage(image: 'cold_brew.jpg'),
+        Image(image: AssetImage('assets/images/cold_brew.jpg')),
         TextBlock(
           text: 'Cold brew is basically iced coffee on steroids. '
             'In fact, cold brew has about double the amount of'
