@@ -4,7 +4,7 @@ class TextBlock extends StatelessWidget {
 
   final String text;
 
-  const TextBlock({Key key, @required this.text}): super(key: key);
+  const TextBlock(this.text);
 
   @override
   Widget build(BuildContext context) {

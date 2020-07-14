@@ -18,7 +18,7 @@ class TheCoffeeApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: DefaultTabController(
-        length: 5,
+        length: 4,
         child: Scaffold(
           backgroundColor: Colors.white,
           appBar: AppBar(
@@ -43,7 +43,6 @@ class TheCoffeeApp extends StatelessWidget {
                 Tab(text: 'Drip Brew'),
                 Tab(text: 'Espresso'),
                 Tab(text: 'French Press'),
-                Tab(text: 'Percolator'),
               ],
             ),
           ),

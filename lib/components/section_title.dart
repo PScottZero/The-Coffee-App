@@ -5,7 +5,7 @@ class SectionTitle extends StatelessWidget {
   final String sectionTitle;
   final double bottomPadding;
 
-  const SectionTitle({Key key, @required this.sectionTitle, this.bottomPadding = 0}): super(key: key);
+  const SectionTitle(this.sectionTitle, [this.bottomPadding = 0]);
 
   @override
   Widget build(BuildContext context) {
