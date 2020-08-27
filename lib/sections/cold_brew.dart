@@ -55,6 +55,18 @@ class ColdBrewWidget extends StatelessWidget {
           'gives you the best taste.'
         ),
         RoundedImage(imgDir, imgDir + '_5.jpg'),
+        CustomDivider(),
+        SectionTitle('Part 3: Filtering'),
+        TextBlock(
+          'Once the coffee is done brewing, you will need to strain out '
+          'the coffee grinds. Place a cheese cloth over a bowl and pour the coffee '
+          'over the cheese cloth.'
+        ),
+        RoundedImage(imgDir, imgDir + '_6.jpg'),
+        TextBlock(
+          'Finally, pour the coffee into a large pitcher or mason jar. Keep '
+          'the coffee refrigerated until use.'
+        )
       ],
     );
   }

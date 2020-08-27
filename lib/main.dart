@@ -33,18 +33,6 @@ class TheCoffeeApp extends StatelessWidget {
                 ),
               ),
             ),
-            bottom: TabBar(
-              indicatorColor: Colors.cyan[400],
-              labelColor: Colors.cyan[400],
-              unselectedLabelColor: Colors.grey,
-              isScrollable: true,
-              tabs: [
-                Tab(text: 'Cold Brew'),
-                Tab(text: 'Drip Brew'),
-                Tab(text: 'Espresso'),
-                Tab(text: 'French Press'),
-              ],
-            ),
           ),
           body: CoffeeHome(),
         ),
