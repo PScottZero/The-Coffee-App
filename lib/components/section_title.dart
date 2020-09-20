@@ -16,7 +16,8 @@ class SectionTitle extends StatelessWidget {
           sectionTitle,
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 32
+            fontSize: 32,
+            color: Colors.white
           ),
         ),
       ),

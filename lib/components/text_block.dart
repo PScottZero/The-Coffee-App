@@ -16,6 +16,8 @@ class TextBlock extends StatelessWidget {
         style: TextStyle(
           fontSize: 16,
           height: 1.8,
+          color: Colors.white,
+          fontWeight: FontWeight.bold
         ),
       ),
     );

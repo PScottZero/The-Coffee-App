@@ -29,6 +29,7 @@ flutter:
   assets:
     - assets/images/cold_brew/
     - assets/images/french_press/
+    - assets/images/
   uses-material-design: true
   fonts:
     - family: Pacifico

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class RoundedImage extends StatelessWidget {
-
   final String dir;
   final String image;
 

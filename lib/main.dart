@@ -13,14 +13,13 @@ class TheCoffeeApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Comfortaa',
-        primaryColor: Colors.white,
-        accentColor: Colors.cyan[400],
+        primaryColor: Colors.brown[800],
+        accentColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: DefaultTabController(
-        length: 4,
+        length: 3,
         child: Scaffold(
-          backgroundColor: Colors.white,
           appBar: AppBar(
             elevation: 1,
             centerTitle: true,
@@ -28,10 +27,21 @@ class TheCoffeeApp extends StatelessWidget {
               child: Text(
                 'The Coffee App',
                 style: TextStyle(
-                  color: Colors.cyan[400],
+                  color: Colors.white,
                   fontFamily: 'Pacifico',
                 ),
               ),
+            ),
+            bottom: TabBar(
+              indicatorColor: Colors.brown[200],
+              labelColor: Colors.brown[200],
+              unselectedLabelColor: Colors.brown[400],
+              isScrollable: true,
+              tabs: [
+                Tab(text: 'Cold Brew'),
+                Tab(text: 'Espresso'),
+                Tab(text: 'French Press'),
+              ],
             ),
           ),
           body: CoffeeHome(),
