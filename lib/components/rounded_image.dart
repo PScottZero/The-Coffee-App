@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class RoundedImage extends StatelessWidget {
   final String dir;
-  final String image;
+  final int imageNo;
 
-  const RoundedImage(this.dir, this.image);
+  const RoundedImage(this.dir, this.imageNo);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class RoundedImage extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
         child: Image(
-          image: AssetImage('assets/images/' + dir + '/' + image),
+          image: AssetImage('assets/images/' + dir + '/' + dir + '_' + imageNo.toString() + '.jpg'),
         ),
       )
     );

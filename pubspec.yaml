@@ -28,6 +28,7 @@ flutter_icons:
 flutter:
   assets:
     - assets/images/cold_brew/
+    - assets/images/espresso/
     - assets/images/french_press/
     - assets/images/
   uses-material-design: true
