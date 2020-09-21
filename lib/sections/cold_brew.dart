@@ -31,7 +31,7 @@ class ColdBrewWidget extends StatelessWidget {
       TextBlock(
         'Next, add 6 cups of filtered water (either cold or room '
         'temperature) to the container. Filtered water is preferred '
-        'since you will not be heating up the water. The added water '
+        'since you will not be heating the water. The added water '
         'leads to a ratio of about 1 gram of coffee per 18 grams of water.'
       ),
       RoundedImage(imgDir, 3),
@@ -44,7 +44,7 @@ class ColdBrewWidget extends StatelessWidget {
       CustomDivider(),
       SectionTitle('Part 2: Brewing'),
       TextBlock(
-        'This is the easiest part, but the brewing process is incredible slow. '
+        'This is the easiest part, but the brewing process is incredibly slow. '
         'Place the water and grounds mixture into your refrigerator for '
         '12-24 hours. 12 hours leads to a weaker taste, 24 hours leads to '
         'a stronger taste. Try to find the timing within 12-24 hours that '
@@ -55,8 +55,8 @@ class ColdBrewWidget extends StatelessWidget {
       SectionTitle('Part 3: Filtering'),
       TextBlock(
         'Once the coffee is done brewing, you will need to strain out '
-        'the coffee grinds. Place a cheese cloth over a bowl and pour the coffee '
-        'over the cheese cloth.'
+        'the coffee grinds. Place a cheesecloth over a bowl and pour the coffee '
+        'over the cheesecloth.'
       ),
       RoundedImage(imgDir, 6),
       TextBlock(

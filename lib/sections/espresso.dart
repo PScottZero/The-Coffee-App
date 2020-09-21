@@ -24,7 +24,7 @@ class EspressoWidget extends StatelessWidget {
       SectionTitle('Part 1: Water'),
       TextBlock(
         'First, screw off the top of the coffee maker. You will see '
-        'a marker labelled H2O. Fill the top with water up to this point.'
+        'a marker labeled H2O. Fill the top with water up to this point.'
       ),
       RoundedImage(imgDir, 2),
       TextBlock(
@@ -32,7 +32,7 @@ class EspressoWidget extends StatelessWidget {
       ),
       RoundedImage(imgDir, 3),
       CustomDivider(),
-      SectionTitle('Part 2: Coffee Grounds'),
+      SectionTitle('Part 2: Grounds'),
       TextBlock(
         'Next, fill the funnel that was in the bottom of the coffee maker '
         'with finely ground coffee grounds. Make sure the funnel is packed well '
